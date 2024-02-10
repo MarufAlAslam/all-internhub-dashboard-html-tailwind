@@ -88,6 +88,7 @@ html {
 .sidebar {
     background-color: #4D2C5E;
     min-height: 100vh;
+    height: 100%;
     padding: 20px 10px;
     width: 270px;
 }
@@ -282,4 +283,24 @@ th {
 .modal-dialog.modal-dialog-centered {
     width: 350px;
     border-radius: 30px !important;
+}
+
+.program-accordion .accordion-button {
+    background: #ffd599 !important;
+    border-left: 8px solid #FF9500 !important;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.acc-item {
+    background-color: #cac2ff;
+}
+
+.program-accordion .accordion-body {
+    padding: 0;
+}
+.acc-item {
+    background-color: #cac2ff !important;
+    padding: 10px 0;
+    border-left: 8px solid #7a66ff !important;
 }
