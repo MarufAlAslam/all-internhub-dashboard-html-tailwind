@@ -79,7 +79,7 @@ html {
 }
 
 .btn-blue {
-    background-color: #210EB6;
+    background-color: #210EB6 !important;
 }
 
 
@@ -209,7 +209,7 @@ html {
 }
 
 .btn-x {
-    background-color: #EAEAEA;
+    background-color: #EAEAEA !important;
     font-size: 15px;
     padding: 5px 15px;
     border-radius: 30px;
