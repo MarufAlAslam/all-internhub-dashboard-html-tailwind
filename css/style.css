@@ -11,6 +11,7 @@ html {
     overflow-x: hidden;
     scroll-behavior: smooth;
     background-color: #FDF8EE;
+    padding-right: 0 !important;
 }
 
 .h-screen {
@@ -265,4 +266,20 @@ th {
 .btn-warning {
     top: 50px;
     left: 0;
+}
+
+.modal .form-control {
+    border: 1px solid #E5E5E5 !important;
+    border-radius: 10px !important;
+    padding: 10px 15px !important;
+}
+
+.btn-primary {
+    background-color: #7152F3 !important;
+    border-color: #7152F3 !important;
+}
+
+.modal-dialog.modal-dialog-centered {
+    width: 350px;
+    border-radius: 30px !important;
 }
