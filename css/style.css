@@ -216,3 +216,53 @@ html {
 .text-pink {
     color: #F63A61;
 }
+
+.st {
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+span.badge-number {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background: #EE786C;
+    color: white;
+    line-height: 1;
+    border-radius: 50%;
+    font-size: 14px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+th {
+    color: #AAA4A4 !important;
+    text-align: center;
+}
+
+.linear {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #FF7426, #FFA3A3);
+}
+
+.va-middle {
+    vertical-align: middle;
+}
+
+.btn-warning {
+    top: 50px;
+    left: 0;
+}

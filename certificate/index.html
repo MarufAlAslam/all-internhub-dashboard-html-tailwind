@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>All-Internhub</title>
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Ribeye&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="d-flex justify-content-between align-items-start">
+      <aside class="sidebar">
+        <a href="" class="d-block bg-white text-center shadow rounded">
+          <img src="../img/logo.png" class="logo bg-white" alt="" />
+        </a>
+
+        <ul class="mt-4 list-unstyled m-0 p-0 d-flex flex-column gap-2">
+          <li>
+            <a
+              href="../dashboard"
+              class="text-white text-decoration-none menu-item d-flex justify-content-start align-items-center gap-4"
+            >
+              <img src="../img/dashboard.svg" class="img-fluid icon" alt="" />
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="../my-program"
+              class="text-white text-decoration-none menu-item d-flex justify-content-start align-items-center gap-4"
+            >
+              <img src="../img/my-program.svg" class="img-fluid icon" alt="" />
+              <span>My Program</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="../certificate"
+              class="text-white active text-decoration-none menu-item d-flex justify-content-start align-items-center gap-4"
+            >
+              <img src="../img/certificate.svg" class="img-fluid icon" alt="" />
+              <span>Certificate</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="../support/"
+              class="text-white text-decoration-none menu-item d-flex justify-content-start align-items-center gap-4"
+            >
+              <img src="../img/edit.svg" class="img-fluid icon" alt="" />
+              <span>Support</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="../message"
+              class="text-white text-decoration-none menu-item d-flex justify-content-start align-items-center gap-4"
+            >
+              <img src="../img/message.svg" class="img-fluid icon" alt="" />
+              <span>Messages</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="../ai-assistant/"
+              class="text-white text-decoration-none menu-item d-flex justify-content-start align-items-center gap-4"
+            >
+              <img
+                src="../img/ai-assistant.svg"
+                class="img-fluid icon"
+                alt=""
+              />
+              <span>AI Assistant</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <main class="main-body p-20">
+        <div class="card border-0 p-3 shadow-sm h-full-200 pb-5">
+          <div
+            class="d-inline-flex align-items-center ap-2 ms-auto bg-white py-2 px-5 rounded shadow-sm"
+          >
+            <div class="avatar-holder position-relative">
+              <img src="../img/avatar.png" class="img-fluid avatar" alt="" />
+              <div class="st"></div>
+            </div>
+            <span class="fw-semibold inline-block ms-2 me-4">Amina Ali</span>
+            <button class="btn p-0 position-relative">
+              <img src="../img/bell.svg" class="img-fluid" alt="" />
+              <span class="badge-number">2</span>
+            </button>
+          </div>
+
+          <div class="custom-container">
+            <h2 class="text-blue-1 fs-35 fw-semibold">Certificates</h2>
+          </div>
+
+          <table class="table table-stripped mt-5 mb-0">
+            <thead>
+              <th>Program Names</th>
+              <th>Start</th>
+              <th>End</th>
+              <th>Rate</th>
+              <th>Level</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div
+                    class="d-flex justify-content-center align-items-center gap-3"
+                  >
+                    <div class="linear">
+                      <img src="../img/trophy.svg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="text">
+                      <a href="./details/" class="text-blue-1 text-decoration-none fw-semibold lead mb-0">
+                        Programming
+                      </a>
+                      <p class="mb-0 text-muted">8 Weeks</p>
+                    </div>
+                  </div>
+                </td>
+
+                <td class="va-middle text-center">
+                  <p class="text-49 mb-0 fw-semibold">May 20</p>
+                </td>
+                <td class="va-middle text-center">
+                  <p class="text-49 mb-0 fw-semibold">Aug 20</p>
+                </td>
+                <td class="va-middle text-center">
+                  <p class="text-49 mb-0 fw-semibold">5.8</p>
+                </td>
+                <td class="va-middle text-center">
+                  <p class="text-49 mb-0 fw-semibold">Intermediate</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- js -->
+    <script src="../js/app.js"></script>
+  </body>
+</html>
