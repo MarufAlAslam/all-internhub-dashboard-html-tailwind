@@ -172,3 +172,47 @@ html {
     box-shadow: unset !important;
     outline: unset !important;
 }
+
+.badge-pink {
+    background-color: #fde6e1;
+    display: inline-flex;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #F63A61;
+}
+
+.text-blue-1 {
+    color: #0F0049;
+}
+
+.text-1 {
+    color: #111827;
+}
+
+.accordion * {
+    background-color: transparent !important;
+    outline: unset !important;
+    box-shadow: unset !important;
+    border: unset !important;
+}
+
+.accordion-button {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0F0049;
+    border-bottom: 1px solid #e7e7e7 !important;
+    border-radius: 0 !important;
+}
+
+.btn-x {
+    background-color: #EAEAEA;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+.text-pink {
+    color: #F63A61;
+}
