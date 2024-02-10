@@ -49,6 +49,34 @@ html {
     font-size: 36px;
 }
 
-.text-orange{
+.text-orange {
     color: #FF7426;
+}
+
+.bg-purple {
+    background-color: #4D2C5E;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.text-49 {
+    color: #494949;
+}
+
+.text-blue {
+    color: #2308F9;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.btn-blue {
+    background-color: #210EB6;
 }
