@@ -104,3 +104,71 @@ html {
 .icon {
     width: 24px;
 }
+
+.p-20 {
+    padding: 20px;
+}
+
+.main-body {
+    width: calc(100vw - 270px);
+}
+
+.custom-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.fs-25 {
+    font-size: 25px !important;
+}
+
+.fs-20 {
+    font-size: 20px !important;
+}
+
+
+.h-full-200 {
+    height: calc(100vh - 40px);
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.g-icon {
+    width: 50px;
+}
+
+.grid-item {
+    background-color: #E4E4E4;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.text-purple {
+    color: #4D2C5E;
+}
+
+.ai-message {
+    background-color: #F7F7F7;
+}
+
+.form-control {
+    border: unset !important;
+    box-shadow: unset !important;
+    outline: unset !important;
+}
