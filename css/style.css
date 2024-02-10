@@ -80,3 +80,27 @@ html {
 .btn-blue {
     background-color: #210EB6;
 }
+
+
+
+/* main */
+.sidebar {
+    background-color: #4D2C5E;
+    min-height: 100vh;
+    padding: 20px 10px;
+    width: 270px;
+}
+
+.menu-item {
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+
+.menu-item:hover,
+.menu-item.active {
+    background: linear-gradient(90deg, #FF7426, #FFA3A3);
+}
+
+.icon {
+    width: 24px;
+}
