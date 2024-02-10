@@ -1,0 +1,54 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.ribeye {
+    font-family: 'Ribeye', serif;
+}
+
+body,
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: #FDF8EE;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-50 {
+    padding: 50px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.btn-purple {
+    background-color: #4D2C5E !important;
+    border-radius: 30px;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    vertical-align: middle;
+}
+
+.py-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.fs-36 {
+    font-size: 36px;
+}
+
+.text-orange{
+    color: #FF7426;
+}
