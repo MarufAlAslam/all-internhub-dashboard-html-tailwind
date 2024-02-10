@@ -57,7 +57,7 @@
           <li>
             <a
               href="../certificate"
-              class="text-white active text-decoration-none menu-item d-flex justify-content-start align-items-center gap-4"
+              class="text-white text-decoration-none menu-item d-flex justify-content-start align-items-center gap-4"
             >
               <img src="../img/certificate.svg" class="img-fluid icon" alt="" />
               <span>Certificate</span>
@@ -74,8 +74,8 @@
           </li>
           <li>
             <a
-              href="../messages"
-              class="text-white text-decoration-none menu-item d-flex justify-content-start align-items-center gap-4"
+              href="../messagess"
+              class="text-white active text-decoration-none menu-item d-flex justify-content-start align-items-center gap-4"
             >
               <img src="../img/message.svg" class="img-fluid icon" alt="" />
               <span>Messages</span>
@@ -98,10 +98,10 @@
       </aside>
       <main class="main-body p-20">
         <div class="card border-0 shadow-sm h-full-200 pb-5">
-            <div
+          <div
             class="p-3 w-100 d-flex justify-content-between align-items-center"
           >
-            <h2 class="text-blue-1 fs-35 fw-semibold">Certificate</h2>
+            <h2 class="text-blue-1 fs-35 fw-semibold">Messages</h2>
             <div
               class="d-inline-flex ms-auto align-items-center ap-2 ms-auto bg-white py-2 px-5 rounded shadow-sm"
             >
@@ -116,51 +116,69 @@
               </button>
             </div>
           </div>
-
-          <table class="table table-stripped mt-5 mb-0">
-            <thead>
-              <th>Program Names</th>
-              <th>Start</th>
-              <th>End</th>
-              <th>Rate</th>
-              <th>Level</th>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <div
-                    class="d-flex justify-content-center align-items-center gap-3"
-                  >
-                    <div class="linear">
-                      <img src="../img/trophy.svg" class="img-fluid" alt="" />
-                    </div>
-                    <div class="text">
-                      <a href="./details/" class="text-blue-1 text-decoration-none fw-semibold lead mb-0">
-                        Programming
-                      </a>
-                      <p class="mb-0 text-muted">8 Weeks</p>
-                    </div>
-                  </div>
-                </td>
-
-                <td class="va-middle text-center">
-                  <p class="text-49 mb-0 fw-semibold">May 20</p>
-                </td>
-                <td class="va-middle text-center">
-                  <p class="text-49 mb-0 fw-semibold">Aug 20</p>
-                </td>
-                <td class="va-middle text-center">
-                  <p class="text-49 mb-0 fw-semibold">5.8</p>
-                </td>
-                <td class="va-middle text-center">
-                  <p class="text-49 mb-0 fw-semibold">Intermediate</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
         </div>
       </main>
     </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="contactModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
+          </div>
+          <div class="modal-body">
+            <form action="" class="d-flex flex-column gap-4">
+              <input
+                type="text"
+                class="form-control border py-3"
+                placeholder="Enter Email Address"
+                name=""
+                id=""
+              />
+              <input
+                type="text"
+                class="form-control border py-3"
+                placeholder="What is the issue about"
+                name=""
+                id=""
+              />
+
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="6"
+                class="form-control border py-3"
+                placeholder="Description"
+              ></textarea>
+
+              <div
+                class="d-flex justify-content-between align-items-center gap-4"
+              >
+                <button
+                  type="button"
+                  class="btn btn-outline-dark py-3 lead w-100"
+                  data-bs-dismiss="modal"
+                >
+                  Cancel
+                </button>
+                <button type="submit" class="btn btn-primary py-3 lead w-100">
+                  Understood
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
