@@ -130,7 +130,7 @@ html {
 
 
 .h-full-200 {
-    height: calc(100vh - 40px);
+    min-height: calc(100vh - 40px);
 }
 
 .grid-3 {
@@ -299,8 +299,49 @@ th {
 .program-accordion .accordion-body {
     padding: 0;
 }
+
 .acc-item {
     background-color: #cac2ff !important;
     padding: 10px 0;
     border-left: 8px solid #7a66ff !important;
+}
+
+.bg-form {
+    background-color: #F7F7FD;
+    border-radius: 20px !important;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.chat-head {
+    border-radius: 50%;
+}
+
+.fs-10 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.chat-item {
+    background-color: #F7F7FD;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.message-body {
+    height: 60vh;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn-blue-1 {
+    background-color: #2E3B5B !important;
+    border-color: #2E3B5B !important;
+    color: white;
 }
