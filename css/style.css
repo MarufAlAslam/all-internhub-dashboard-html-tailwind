@@ -347,3 +347,23 @@ th {
     border-color: #2E3B5B !important;
     color: white;
 }
+
+.rounded-30 {
+    border-radius: 30px;
+}
+
+.grid-9 {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 20px;
+}
+
+.grid-9 .item {
+    background-color: #EFEFEF;
+    border-radius: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
