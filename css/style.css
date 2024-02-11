@@ -8,7 +8,7 @@
 
 body,
 html {
-    overflow-x: hidden;
+    overflow: hidden;
     scroll-behavior: smooth;
     background-color: #FDF8EE;
     padding-right: 0 !important;
@@ -113,6 +113,8 @@ html {
 
 .main-body {
     width: calc(100vw - 270px);
+    overflow-y: scroll;
+    height: 100vh;
 }
 
 .custom-container {
