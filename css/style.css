@@ -462,6 +462,25 @@ th {
     font-size: 32px;
 }
 
-.footer{
+.footer {
     background-color: #FF7426;
+}
+
+.course {
+    background-color: #f9e6ef;
+}
+
+.text-78 {
+    color: #786868;
+}
+
+.enroll-btn {
+    min-width: 250px;
+    background: linear-gradient(-45deg, #9F06FF, #CD10FF);
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
