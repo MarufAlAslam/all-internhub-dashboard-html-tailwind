@@ -426,9 +426,11 @@ th {
 .pink {
     background: linear-gradient(90deg, #FF6968, #FFA3A3);
 }
+
 .purple {
     background: linear-gradient(90deg, #4D2C5E, #9294BD);
 }
+
 .orange {
     background: linear-gradient(90deg, #FF7426, #FFD098);
 }
@@ -443,4 +445,23 @@ th {
 
 .fs-12 {
     font-size: 12px;
+}
+
+.scroll-y {
+    height: 100vh;
+    min-height: unset;
+    overflow-y: scroll;
+}
+
+.home-services img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.footer{
+    background-color: #FF7426;
 }
