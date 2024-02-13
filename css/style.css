@@ -484,3 +484,39 @@ th {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.bg-violet {
+    background-color: #4D2C5E;
+}
+
+.ls-2 {
+    letter-spacing: 2px;
+}
+
+.c-details svg {
+    width: 20px;
+}
+
+.btn-orange {
+    background-color: #FF7426 !important;
+    border-color: #FF7426 !important;
+    color: white;
+}
+
+.course-card {
+    position: relative;
+    top: -150px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+tr a {
+    display: block;
+}
+
+.timelines {
+    height: 600px;
+    overflow-y: scroll;
+}
