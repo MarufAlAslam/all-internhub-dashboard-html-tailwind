@@ -564,3 +564,7 @@ tr a {
 .cursor-pointer {
     cursor: pointer;
 }
+
+.youtube-link {
+    cursor: pointer;
+}
