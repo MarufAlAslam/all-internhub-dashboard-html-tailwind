@@ -179,18 +179,38 @@
               </form>
             </div>
 
-            <div
-              class="d-inline-flex ms-auto align-items-center ap-2 ms-auto bg-white py-2 px-5 rounded shadow-sm"
-            >
-              <div class="avatar-holder position-relative">
-                <img src="../img/avatar.png" class="img-fluid avatar" alt="" />
-                <div class="st"></div>
+            <div class="dropdown">
+              <div
+                class="cursor-pointer d-inline-flex ms-auto align-items-center ap-2 ms-auto bg-white py-2 px-5 rounded shadow-sm"
+                data-bs-toggle="dropdown"
+              >
+                <div class="avatar-holder position-relative">
+                  <img
+                    src="../img/avatar.png"
+                    class="img-fluid avatar"
+                    alt=""
+                  />
+                  <div class="st"></div>
+                </div>
+                <span class="fw-semibold inline-block ms-2 me-4"
+                  >Amina Ali</span
+                >
+                <button class="btn p-0 position-relative">
+                  <img src="../img/bell.svg" class="img-fluid" alt="" />
+                  <span class="badge-number">2</span>
+                </button>
               </div>
-              <span class="fw-semibold inline-block ms-2 me-4">Amina Ali</span>
-              <button class="btn p-0 position-relative">
-                <img src="../img/bell.svg" class="img-fluid" alt="" />
-                <span class="badge-number">2</span>
-              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../my-program/">My Profile</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../my-program/">My Programs</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../login/">Log Out</a>
+                </li>
+              </ul>
             </div>
           </div>
 
