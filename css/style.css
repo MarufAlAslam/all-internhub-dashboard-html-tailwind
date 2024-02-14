@@ -568,3 +568,7 @@ tr a {
 .youtube-link {
     cursor: pointer;
 }
+
+textarea {
+    resize: none;
+}
