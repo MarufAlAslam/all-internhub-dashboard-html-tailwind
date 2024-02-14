@@ -3,5 +3,13 @@ const paymentModal = document.getElementById("payment-modal");
 
 paymentForm.addEventListener("submit", function (event) {
   event.preventDefault();
-  paymentModal.classList.add("d-none");
+  window.location.href = "./data-analysis";
+});
+
+const enrollBtns = document.querySelectorAll(".enroll-btn");
+
+enrollBtns.forEach(function (btn) {
+  btn.addEventListener("click", function () {
+    paymentModal.classList.add("active");
+  });
 });
