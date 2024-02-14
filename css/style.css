@@ -521,6 +521,37 @@ tr a {
     overflow-y: scroll;
 }
 
+a.youtube-link {
+    width: 80px;
+    height: 45px;
+    overflow: hidden;
+    background-color: #282828 !important;
+    /* display: inline-flex; */
+    color: #282828;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+}
+
+a.youtube-link::after {
+    content: '\f04b';
+    font-family: "Font Awesome 5 Free";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 900;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
 .payment-modal {
     position: fixed;
     top: 0;
@@ -571,4 +602,8 @@ tr a {
 
 textarea {
     resize: none;
+}
+
+.accordion td {
+    border-bottom: 1px solid #E5E5E5 !important;
 }
