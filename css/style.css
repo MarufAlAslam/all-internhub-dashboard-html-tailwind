@@ -548,11 +548,11 @@ tr a {
     padding: 10px 15px !important;
 }
 
-.scroll-y::-webkit-scrollbar {
+*::-webkit-scrollbar {
     display: none;
 }
 
-.scroll-y {
+* {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
