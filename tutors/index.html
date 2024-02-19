@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>All-Internhub</title>
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Ribeye&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="d-flex justify-content-between align-items-start">
+      <aside class="sidebar">
+        <a href="" class="d-block bg-white text-center shadow rounded">
+          <img src="../img/logo.png" class="logo bg-white" alt="" />
+        </a>
+
+        <ul class="mt-4 list-unstyled m-0 p-0 d-flex flex-column gap-2">
+          <li>
+            <a
+              href="../panel/"
+              class="text-white text-decoration-none menu-item d-flex justify-content-start align-items-center gap-4"
+            >
+              <img src="../img/dashboard.svg" class="img-fluid icon" alt="" />
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="../tutors/"
+              class="text-white active text-decoration-none menu-item d-flex justify-content-start align-items-center gap-4"
+            >
+              <img src="../img/my-program.svg" class="img-fluid icon" alt="" />
+              <span>Tutors</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="../certificate"
+              class="text-white text-decoration-none menu-item d-flex justify-content-start align-items-center gap-4"
+            >
+              <img src="../img/certificate.svg" class="img-fluid icon" alt="" />
+              <span>Certificate</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="../support/"
+              class="text-white text-decoration-none menu-item d-flex justify-content-start align-items-center gap-4"
+            >
+              <img src="../img/edit.svg" class="img-fluid icon" alt="" />
+              <span>Support</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="../messages"
+              class="text-white text-decoration-none menu-item d-flex justify-content-start align-items-center gap-4"
+            >
+              <img src="../img/message.svg" class="img-fluid icon" alt="" />
+              <span>Messages</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="../ai-assistant/"
+              class="text-white text-decoration-none menu-item d-flex justify-content-start align-items-center gap-4"
+            >
+              <img
+                src="../img/ai-assistant.svg"
+                class="img-fluid icon"
+                alt=""
+              />
+              <span>AI Assistant</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <main class="main-body p-20">
+        <div class="card bg-transparent border-0 h-full-200 pb-5">
+          <div
+            class="p-3 w-100 d-flex justify-content-between align-items-center"
+          >
+            <h2 class="text-blue-1 fs-35 fw-semibold">Expert Tutors</h2>
+            <div class="dropdown">
+              <div
+                class="cursor-pointer d-inline-flex ms-auto align-items-center ap-2 ms-auto bg-white py-2 px-5 rounded shadow-sm"
+                data-bs-toggle="dropdown"
+              >
+                <div class="avatar-holder position-relative">
+                  <img
+                    src="../img/avatar.png"
+                    class="img-fluid avatar"
+                    alt=""
+                  />
+                  <div class="st"></div>
+                </div>
+                <span class="fw-semibold inline-block ms-2 me-4"
+                  >Amina Ali</span
+                >
+                <button class="btn p-0 position-relative">
+                  <img src="../img/bell.svg" class="img-fluid" alt="" />
+                  <span class="badge-number">2</span>
+                </button>
+              </div>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../my-program/">My Profile</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../my-program/">My Programs</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../login/">Log Out</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="p-20">
+            <div class="card bg-transparent border-0 overflow-hidden">
+              <div class="card-body">
+                <div class="grid-3">
+                  <div class="card h-100 border-0 shadow">
+                    <div class="card-body h-100">
+                      <div class="text-center h-100 w-100 d-flex flex-column justify-content-center align-items-center gap-3">
+                        <h4>Become a Tutor</h4>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Libero nihil distinctio ut
+                        </p>
+                        <a
+                          href="../expert-signup/"
+                          class="get-started btn btn-purple d-block w-100"
+                        >
+                          Get Started
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-start align-items-center gap-3"
+                      >
+                        <div class="avatar">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="names">
+                          <h5 class="mb-0">John Doe</h5>
+                          <p class="text-muted fs-14 mb-0">Developer</p>
+                        </div>
+                      </div>
+
+                      <table class="table mt-3 table-stripped">
+                        <tr>
+                          <td class="p-2 border fw-semibold">
+                            Total Playlists
+                          </td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            4
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Videos</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            18
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Likes</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            1208
+                          </td>
+                        </tr>
+                      </table>
+
+                      <a href="" class="btn btn-purple d-block w-100">
+                        View Profile
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-start align-items-center gap-3"
+                      >
+                        <div class="avatar">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="names">
+                          <h5 class="mb-0">John Doe</h5>
+                          <p class="text-muted fs-14 mb-0">Developer</p>
+                        </div>
+                      </div>
+
+                      <table class="table mt-3 table-stripped">
+                        <tr>
+                          <td class="p-2 border fw-semibold">
+                            Total Playlists
+                          </td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            4
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Videos</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            18
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Likes</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            1208
+                          </td>
+                        </tr>
+                      </table>
+
+                      <a href="" class="btn btn-purple d-block w-100">
+                        View Profile
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-start align-items-center gap-3"
+                      >
+                        <div class="avatar">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="names">
+                          <h5 class="mb-0">John Doe</h5>
+                          <p class="text-muted fs-14 mb-0">Developer</p>
+                        </div>
+                      </div>
+
+                      <table class="table mt-3 table-stripped">
+                        <tr>
+                          <td class="p-2 border fw-semibold">
+                            Total Playlists
+                          </td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            4
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Videos</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            18
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Likes</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            1208
+                          </td>
+                        </tr>
+                      </table>
+
+                      <a href="" class="btn btn-purple d-block w-100">
+                        View Profile
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-start align-items-center gap-3"
+                      >
+                        <div class="avatar">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="names">
+                          <h5 class="mb-0">John Doe</h5>
+                          <p class="text-muted fs-14 mb-0">Developer</p>
+                        </div>
+                      </div>
+
+                      <table class="table mt-3 table-stripped">
+                        <tr>
+                          <td class="p-2 border fw-semibold">
+                            Total Playlists
+                          </td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            4
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Videos</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            18
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Likes</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            1208
+                          </td>
+                        </tr>
+                      </table>
+
+                      <a href="" class="btn btn-purple d-block w-100">
+                        View Profile
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-start align-items-center gap-3"
+                      >
+                        <div class="avatar">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="names">
+                          <h5 class="mb-0">John Doe</h5>
+                          <p class="text-muted fs-14 mb-0">Developer</p>
+                        </div>
+                      </div>
+
+                      <table class="table mt-3 table-stripped">
+                        <tr>
+                          <td class="p-2 border fw-semibold">
+                            Total Playlists
+                          </td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            4
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Videos</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            18
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Likes</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            1208
+                          </td>
+                        </tr>
+                      </table>
+
+                      <a href="" class="btn btn-purple d-block w-100">
+                        View Profile
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-start align-items-center gap-3"
+                      >
+                        <div class="avatar">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="names">
+                          <h5 class="mb-0">John Doe</h5>
+                          <p class="text-muted fs-14 mb-0">Developer</p>
+                        </div>
+                      </div>
+
+                      <table class="table mt-3 table-stripped">
+                        <tr>
+                          <td class="p-2 border fw-semibold">
+                            Total Playlists
+                          </td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            4
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Videos</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            18
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Likes</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            1208
+                          </td>
+                        </tr>
+                      </table>
+
+                      <a href="" class="btn btn-purple d-block w-100">
+                        View Profile
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-start align-items-center gap-3"
+                      >
+                        <div class="avatar">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="names">
+                          <h5 class="mb-0">John Doe</h5>
+                          <p class="text-muted fs-14 mb-0">Developer</p>
+                        </div>
+                      </div>
+
+                      <table class="table mt-3 table-stripped">
+                        <tr>
+                          <td class="p-2 border fw-semibold">
+                            Total Playlists
+                          </td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            4
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Videos</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            18
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Likes</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            1208
+                          </td>
+                        </tr>
+                      </table>
+
+                      <a href="" class="btn btn-purple d-block w-100">
+                        View Profile
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-start align-items-center gap-3"
+                      >
+                        <div class="avatar">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="names">
+                          <h5 class="mb-0">John Doe</h5>
+                          <p class="text-muted fs-14 mb-0">Developer</p>
+                        </div>
+                      </div>
+
+                      <table class="table mt-3 table-stripped">
+                        <tr>
+                          <td class="p-2 border fw-semibold">
+                            Total Playlists
+                          </td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            4
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Videos</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            18
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Likes</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            1208
+                          </td>
+                        </tr>
+                      </table>
+
+                      <a href="" class="btn btn-purple d-block w-100">
+                        View Profile
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-start align-items-center gap-3"
+                      >
+                        <div class="avatar">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="names">
+                          <h5 class="mb-0">John Doe</h5>
+                          <p class="text-muted fs-14 mb-0">Developer</p>
+                        </div>
+                      </div>
+
+                      <table class="table mt-3 table-stripped">
+                        <tr>
+                          <td class="p-2 border fw-semibold">
+                            Total Playlists
+                          </td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            4
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Videos</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            18
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Likes</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            1208
+                          </td>
+                        </tr>
+                      </table>
+
+                      <a href="" class="btn btn-purple d-block w-100">
+                        View Profile
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-start align-items-center gap-3"
+                      >
+                        <div class="avatar">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="names">
+                          <h5 class="mb-0">John Doe</h5>
+                          <p class="text-muted fs-14 mb-0">Developer</p>
+                        </div>
+                      </div>
+
+                      <table class="table mt-3 table-stripped">
+                        <tr>
+                          <td class="p-2 border fw-semibold">
+                            Total Playlists
+                          </td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            4
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Videos</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            18
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Likes</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            1208
+                          </td>
+                        </tr>
+                      </table>
+
+                      <a href="" class="btn btn-purple d-block w-100">
+                        View Profile
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-start align-items-center gap-3"
+                      >
+                        <div class="avatar">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="names">
+                          <h5 class="mb-0">John Doe</h5>
+                          <p class="text-muted fs-14 mb-0">Developer</p>
+                        </div>
+                      </div>
+
+                      <table class="table mt-3 table-stripped">
+                        <tr>
+                          <td class="p-2 border fw-semibold">
+                            Total Playlists
+                          </td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            4
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Videos</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            18
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Likes</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            1208
+                          </td>
+                        </tr>
+                      </table>
+
+                      <a href="" class="btn btn-purple d-block w-100">
+                        View Profile
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-start align-items-center gap-3"
+                      >
+                        <div class="avatar">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="names">
+                          <h5 class="mb-0">John Doe</h5>
+                          <p class="text-muted fs-14 mb-0">Developer</p>
+                        </div>
+                      </div>
+
+                      <table class="table mt-3 table-stripped">
+                        <tr>
+                          <td class="p-2 border fw-semibold">
+                            Total Playlists
+                          </td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            4
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Videos</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            18
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Likes</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            1208
+                          </td>
+                        </tr>
+                      </table>
+
+                      <a href="" class="btn btn-purple d-block w-100">
+                        View Profile
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-start align-items-center gap-3"
+                      >
+                        <div class="avatar">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="names">
+                          <h5 class="mb-0">John Doe</h5>
+                          <p class="text-muted fs-14 mb-0">Developer</p>
+                        </div>
+                      </div>
+
+                      <table class="table mt-3 table-stripped">
+                        <tr>
+                          <td class="p-2 border fw-semibold">
+                            Total Playlists
+                          </td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            4
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Videos</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            18
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Likes</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            1208
+                          </td>
+                        </tr>
+                      </table>
+
+                      <a href="" class="btn btn-purple d-block w-100">
+                        View Profile
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card h-100 border-0 shadow">
+                    <div class="card-body">
+                      <div
+                        class="d-flex justify-content-start align-items-center gap-3"
+                      >
+                        <div class="avatar">
+                          <i class="fa fa-user"></i>
+                        </div>
+                        <div class="names">
+                          <h5 class="mb-0">John Doe</h5>
+                          <p class="text-muted fs-14 mb-0">Developer</p>
+                        </div>
+                      </div>
+
+                      <table class="table mt-3 table-stripped">
+                        <tr>
+                          <td class="p-2 border fw-semibold">
+                            Total Playlists
+                          </td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            4
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Videos</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            18
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="p-2 border fw-semibold">Total Likes</td>
+                          <td class="p-2 border text-center text-blue fw-bold">
+                            1208
+                          </td>
+                        </tr>
+                      </table>
+
+                      <a href="" class="btn btn-purple d-block w-100">
+                        View Profile
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- js -->
+    <script src="../js/app.js"></script>
+  </body>
+</html>
