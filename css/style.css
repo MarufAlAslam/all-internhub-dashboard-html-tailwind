@@ -60,6 +60,10 @@ html {
     background-color: #4D2C5E;
 }
 
+.bg-yellow{
+    background-color: #FF7426;
+}
+
 .min-h-screen {
     min-height: 100vh;
 }
@@ -630,4 +634,29 @@ textarea {
     justify-content: center;
     align-items: center;
     font-size: 25px;
+}
+
+.big-avatar {
+    width: 100px;
+    height: 100px;
+    background-color: #E5E5E5;
+    border-radius: 50%;
+    color: #AAA4A4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.card-icon i{
+    font-size: 200px;
+}
+
+.badge{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
 }
