@@ -1,5 +1,3 @@
-
-
 // create a functional calendar using javascript
 let date = new Date();
 let currentYear = date.getFullYear();
@@ -100,7 +98,7 @@ $("#calendar td").click(function () {
 const selectedDate = new Date(todayYear, todayMonth, todayDate);
 
 const selectedDay = document.getElementById("selected-day");
-selectedDay.textContent = todayDate + " " + monthNames[todayMonth].slice(0,3)
+selectedDay.textContent = todayDate + " " + monthNames[todayMonth].slice(0, 3);
 
 $(".youtube-link").click(function () {
   const btnContentText = $(this).text();
@@ -126,20 +124,4 @@ $(".demo").videoBox({
   maxwidth: "",
   portrait: true,
   title: "",
-});
-
-const paymentForm = document.getElementById("payment-form");
-const paymentModal = document.getElementById("payment-modal");
-
-paymentForm.addEventListener("submit", function (event) {
-  event.preventDefault();
-  window.location.href = "./data-analysis";
-});
-
-const enrollBtns = document.querySelectorAll(".enroll-btn");
-
-enrollBtns.forEach(function (btn) {
-  btn.addEventListener("click", function () {
-    paymentModal.classList.add("active");
-  });
 });
