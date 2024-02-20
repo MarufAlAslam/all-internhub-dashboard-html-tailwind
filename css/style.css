@@ -60,7 +60,7 @@ html {
     background-color: #4D2C5E;
 }
 
-.bg-yellow{
+.bg-yellow {
     background-color: #FF7426;
 }
 
@@ -380,13 +380,15 @@ th {
     grid-template-columns: repeat(7, 1fr);
 }
 
-.weekdays li {
+.weekdays li,
+#calendar th {
     padding: 5px;
     text-align: center;
     vertical-align: middle;
 }
 
-.days li {
+.days li,
+#calendar td {
     padding: 5px;
     border: 1px solid #E5E5E5;
     text-align: center;
@@ -399,7 +401,7 @@ th {
     border: 1px solid #f0f0f0;
 }
 
-.days li.active {
+.days li.active, #calendar td.active {
     background-color: #4D2C5E;
     color: white;
 }
@@ -648,15 +650,32 @@ textarea {
     font-size: 50px;
 }
 
-.card-icon i{
+.card-icon i {
     font-size: 200px;
 }
 
-.badge{
+.badge {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     position: absolute;
     top: 10px;
     left: 10px;
     padding: 10px 20px;
+}
+
+#calendar td {
+    text-align: center;
+    border: 1px solid #E5E5E5;
+    cursor: pointer;
+}
+
+/* td.active {
+    background: red;
+    color: white;
+    text-align: center;
+} */
+
+table#calendar tr {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
 }
