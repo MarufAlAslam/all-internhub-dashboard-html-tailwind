@@ -693,3 +693,18 @@ table#calendar tr {
 .gray-crd * {
     color: white !important;
 }
+
+.modal-dialog.modal-lg.modal-dialog-centered {
+    width: auto;
+}
+
+.text-purple{
+    color: #A60195;
+}
+
+
+.btn-violet{
+    background-color: #A60195 !important;
+    border-color: #A60195 !important;
+    color: white;
+}

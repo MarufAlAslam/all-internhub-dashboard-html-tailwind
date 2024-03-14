@@ -364,7 +364,11 @@
                 <div
                   class="message-editor d-flex justify-content-between align-items-center gap-3"
                 >
-                  <button class="btn p-0">
+                  <button
+                    class="btn p-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#TaskModal"
+                  >
                     <img src="../img/elem.svg" class="img-fluid" alt="" />
                   </button>
                   <form
@@ -380,10 +384,10 @@
                     />
 
                     <button class="btn p-0">
-                      <img src="../img/attach.svg" class="img-fluid" alt="">
+                      <img src="../img/attach.svg" class="img-fluid" alt="" />
                     </button>
                     <button class="btn ms-3 btn-blue-1">
-                      <img src="../img/send.svg" class="img-fluid" alt="">
+                      <img src="../img/send.svg" class="img-fluid" alt="" />
                     </button>
                   </form>
                 </div>
@@ -448,6 +452,170 @@
                 </button>
               </div>
             </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="TaskModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="">
+              <h1 class="modal-title fs-5 text-purple" id="exampleModalLabel">
+                Task Request
+              </h1>
+            </div>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <table class="table border-0">
+                <tr>
+                  <td class="border-0 va-middle text-end">
+                    <label for="">Due Date:</label>
+                  </td>
+                  <td class="border-0">
+                    <input type="text" class="form-control" name="" id="">
+                  </td>
+                </tr>
+                <tr>
+                  <td class="border-0 va-middle text-end">
+                    <label for="">Task Fees</label>
+                  </td>
+                  <td class="border-0">
+                    <input type="text" class="form-control" name="" id="">
+                  </td>
+                </tr>
+                <tr>
+                  <td class="border-0 va-middle text-end">
+                    <label for="">Task Description</label>
+                  </td>
+                  <td class="border-0">
+                    <textarea name="" class="form-control" id="" cols="30" rows="3"></textarea>
+                  </td>
+                </tr>
+              </table>
+              <div class="text-end mt-4">
+                <button
+                  type="button"
+                  class="btn lead"
+                  data-bs-dismiss="modal"
+                >
+                  Cancel
+                </button>
+                <button type="submit" class="btn btn-primary px-5 lead">
+                  Submit
+                </button>
+              </div>
+
+              <div class="text-center">
+                <button type="button" class="text-purple btn" data-bs-toggle="modal" data-bs-target="#toCModal">
+                  Terms & Condtions 
+                </button>
+              </div>
+            </form>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="toCModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="">
+              <h1 class="modal-title fs-5 text-purple" id="exampleModalLabel">
+                Terms and Conditions
+              </h1>
+              <p class="text-dark">Your Agreement</p>
+            </div>
+          </div>
+          <div class="modal-body">
+            <p class="text-muted">
+              <b>1. Task Assignment and Payment</b>
+              <br />
+              1.1 The Company will assign tasks to the Student with agreed-upon
+              terms and deadlines.
+              <br />
+              1.2 Payment will be made within [Specify timeframe] days of
+              satisfactory task completion.
+              <br /><br />
+              <b>2. Intellectual Property</b>
+              <br />
+              2.1 All intellectual property rights related to completed tasks
+              belong to the Company.
+              <br />
+              <br />
+              <b>3. Confidentiality</b>
+              <br />
+              3.1 The Student agrees to maintain confidentiality of provided
+              information.
+              <br />
+              <br />
+              <b>4. Professional Conduct</b>
+              <br />
+              4.1 Both parties agree to maintain professional and respectful
+              communication.
+              <br /><br />
+              <b> 5. Termination</b>
+              <br />
+              5.1 Either party may terminate with written notice in case of a
+              material breach.
+              <br />
+              <br />
+              <b>6. Governing Law</b>
+              <br />
+              6.1 This agreement is governed by the laws .
+              <br /><br />
+              <b>7. Amendments</b>
+              <br />
+              7.1 Any changes must be in writing with mutual consent.
+              <br />
+              <br />
+              <b>8. Entire Agreement</b>
+              <br />
+              8.1 This document constitutes the entire agreement between the
+              Company and the Student.
+              <br />
+              <br />
+              By signing below, both parties acknowledge and agree to abide by
+              the terms and conditions outlined herein.
+            </p>
+
+            <div class="d-flex justify-content-start align-items-center gap-3">
+              <input type="checkbox" name="" id="agree">
+              <label for="agree" class="fw-bold">I confirm that I have read and accept the terms and conditions and privacy policy.</label>
+            </div>
+
+            <div class="text-end mt-4">
+              <button
+                type="button"
+                class="btn lead"
+                data-bs-dismiss="modal"
+              >
+                Cancel
+              </button>
+              <button type="submit" class="btn btn-violet px-5 lead">
+                Agree
+              </button>
+            </div>
           </div>
         </div>
       </div>
