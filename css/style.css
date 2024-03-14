@@ -698,13 +698,52 @@ table#calendar tr {
     width: auto;
 }
 
-.text-purple{
+.text-purple {
     color: #A60195;
 }
 
 
-.btn-violet{
+.btn-violet {
     background-color: #A60195 !important;
     border-color: #A60195 !important;
+    color: white;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.dragger {
+    border: 1px dashed #a6d0d0;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #e9f0f0;
+}
+
+.text-teal {
+    color: #00A6A6;
+}
+
+.progress-upload {
+    height: 3px;
+    background-color: #00A6A6;
+    width: 75%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.border-teal {
+    border: 1px solid #00A6A6 !important;
+    border-radius: 10px;
+}
+
+.btn-teal {
+    background-color: #00A6A6 !important;
+    border-color: #00A6A6 !important;
     color: white;
 }
