@@ -401,7 +401,8 @@ th {
     border: 1px solid #f0f0f0;
 }
 
-.days li.active, #calendar td.active {
+.days li.active,
+#calendar td.active {
     background-color: #4D2C5E;
     color: white;
 }
@@ -678,4 +679,17 @@ textarea {
 table#calendar tr {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+}
+
+.bg-dark {
+    background-color: #252A40 !important;
+}
+
+.gray-crd {
+    background-color: #3D3F54 !important;
+
+}
+
+.gray-crd * {
+    color: white !important;
 }
